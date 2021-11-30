@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Fleur+De+Leah&family=Permanent+Marker&display=swap');
+
+/*
+    font-family: 'Allura', cursive;
+    font-family: 'Fleur De Leah', cursive;
+    font-family: 'Permanent Marker', cursive;
+*/
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(255, 255, 255, .3)), url('../img/papertexture-2061710.jpg');
+    background-size: 100%;
+}
+
+html {
+    overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+header{
+    width: 100vw;
+    height: 30vw;
+    background-size: 100%;
+    background-position: center;
+    background: linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .3)), url('../img/0217.jpg');
+    background-position: center;
+}
+
+h1{
+    font-family: 'Fleur De Leah', cursive;
+    /*font-size: 10vw;*/
+}
+
+h5{
+    font-family: 'Permanent Marker', cursive;
+    /*font-size: 2vw;*/
+}
+
+figcaption{    
+    font-family: 'Permanent Marker', cursive;
+    /*font-size: 3vw;*/
+}
+
+.photo-card p{
+    font-family: 'Permanent Marker', cursive;
+}
+
+.card{    
+    cursor: pointer;
+}
+
+
+video{
+    width: 100%;
+    height: auto;
+}

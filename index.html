@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gledy e Bruno</title>
+    <link rel="icon" type="image/x-icon" href="src/img/heartIcon.ico">
+
+    <link rel="stylesheet" href="src/add/bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/add/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="src/styles/home.css">
+</head>
+<body>
+    <header class="d-flex justify-content-center align-items-center">
+        <h1 class="text-white p-3">Gledy & Bruno</h1>
+    </header>
+    <main class="container">
+        <section class="row mt-4 d-flex justify-content-center">
+            <div class="card col-10 col-sm-4 col-lg-2 m-2" onclick="window.open('https://drive.google.com/drive/folders/1x_EAFleCX2DhmBT8wo4Ge0nK_kqZBc0D?usp=sharing')">                
+                <div class="card-body d-inline-flex align-items-center">
+                    <img src="src/img/camera-1085705_1280b.png" alt="" class="w-25">
+                    <h5 class="pl-3">Pré-Wedding</h5>
+                </div>
+            </div>
+            <div class="card col-10 col-sm-4 col-lg-2 m-2" onclick="window.open('https://drive.google.com/drive/folders/13Ohnja_BLcPEEzLze8cdBJIWiKLqRG85?usp=sharing')">                
+                <div class="card-body d-inline-flex align-items-center">
+                    <img src="src/img/photo-1103597_1280b.png" alt="" class="w-25">
+                    <h5 class="pl-3">Fotografia Casamento</h5>
+                </div>
+            </div>
+            <div class="card col-10 col-sm-4 col-lg-2 m-2" onclick="abrirModal()">                
+                <div class="card-body d-inline-flex align-items-center">
+                    <img src="src/img/play-1073616_1280b.png" alt="" class="w-25">
+                    <h5 class="pl-3">Filme Casamento</h5>
+                </div>
+            </div>
+        </section>
+        <section class="row mt-4 d-flex justify-content-center">
+            <div class="bg-white photo-card p-2 rounded col-10">
+                <video src="src/img/TEASER.mp4" type="video/mp4" controls autoplay></video>                
+                <p class="text-center">Amor</p>
+            </div>            
+        </section>
+        <section class="row mt-4">
+            <div class="col-12 col-sm-6 col-lg-3">
+                <figure class="figure bg-white p-2 rounded mb-3">
+                    <img src="src/img/0016.jpg" alt="Inglês" class="img-fluid">
+                    <figcaption class="text-center">Love</figcaption>
+                </figure>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <figure class="figure bg-white p-2 rounded mb-3">
+                    <img src="src/img/0034.jpg" alt="Hauçá" class="img-fluid">
+                    <figcaption class="text-center">Soyayya</figcaption>
+                </figure>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <figure class="figure bg-white p-2 rounded mb-3">
+                    <img src="src/img/0055.jpg" alt="Russo" class="img-fluid">
+                    <figcaption class="text-center">Любовь</figcaption>
+                </figure>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <figure class="figure bg-white p-2 rounded mb-3">
+                    <img src="src/img/0066.jpg" alt="Alemão" class="img-fluid">
+                    <figcaption class="text-center">Liebe</figcaption>
+                </figure>
+            </div>
+        </section>        
+        <section class="row mt-2">
+            <div class="col-12 col-sm-6 col-lg-3">
+                <figure class="figure bg-white p-2 rounded mb-3">
+                    <img src="src/img/0086.jpg" alt="Francês" class="img-fluid">
+                    <figcaption class="text-center">Amour</figcaption>
+                </figure>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <figure class="figure bg-white p-2 rounded mb-3">
+                    <img src="src/img/0103.jpg" alt="Chinês" class="img-fluid">
+                    <figcaption class="text-center">爱</figcaption>
+                </figure>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <figure class="figure bg-white p-2 rounded mb-3">
+                    <img src="src/img/0127.jpg" alt="Sueco" class="img-fluid">
+                    <figcaption class="text-center">Kärlek</figcaption>
+                </figure>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <figure class="figure bg-white p-2 rounded mb-3">
+                    <img src="src/img/0138.jpg" alt="Zulu" class="img-fluid">
+                    <figcaption class="text-center">Uthando</figcaption>
+                </figure>
+            </div>
+        </section>       
+        <section class="row mt-2">
+            <div class="col-12 col-sm-6 col-lg-3">
+                <figure class="figure bg-white p-2 rounded mb-3">
+                    <img src="src/img/0163.jpg" alt="Árabe" class="img-fluid">
+                    <figcaption class="text-center">حب</figcaption>
+                </figure>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <figure class="figure bg-white p-2 rounded mb-3">
+                    <img src="src/img/0320.jpg" alt="Italiano" class="img-fluid">
+                    <figcaption class="text-center">Amore</figcaption>
+                </figure>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <figure class="figure bg-white p-2 rounded mb-3">
+                    <img src="src/img/0454.jpg" alt="Coreano" class="img-fluid">
+                    <figcaption class="text-center">사랑</figcaption>
+                </figure>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <figure class="figure bg-white p-2 rounded mb-3">
+                    <img src="src/img/0524.jpg" alt="Turco" class="img-fluid">
+                    <figcaption class="text-center">Aşk</figcaption>
+                </figure>
+            </div>
+        </section>        
+        <section class="row mt-2 mb-4">
+            <div class="col-12 col-sm-6 col-lg-3">
+                <figure class="figure bg-white p-2 rounded mb-3">
+                    <img src="src/img/0595.jpg" alt="Maori" class="img-fluid">
+                    <figcaption class="text-center">Aroha</figcaption>
+                </figure>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <figure class="figure bg-white p-2 rounded mb-3">
+                    <img src="src/img/0660.jpg" alt="Grego" class="img-fluid">
+                    <figcaption class="text-center">Αγάπη</figcaption>
+                </figure>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <figure class="figure bg-white p-2 rounded mb-3">
+                    <img src="src/img/0669.jpg" alt="Iorubá" class="img-fluid">
+                    <figcaption class="text-center">Ife</figcaption>
+                </figure>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <figure class="figure bg-white p-2 rounded mb-3">
+                    <img src="src/img/0704.jpg" alt="Hebraico" class="img-fluid">
+                    <figcaption class="text-center">אהבה</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section class="row mt-2 mb-4">
+            <div class="col-12">
+                <figure class="figure bg-white p-2 rounded mb-3">
+                    <img src="src/img/0873.jpg" alt="Nosso" class="img-fluid">
+                    <figcaption class="text-center">Panqueca</figcaption>
+                </figure>
+            </div>
+        </section>       
+    </main>
+    <footer></footer>
+
+    <div class="modal" tabindex="-1" role="dialog" id="myModal">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Em breve!</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>O filme do casamento ainda não foi finalizado e, por isso, ainda não está disponível. Mas assim que for finalizado ficará disponível aqui. Aguarde!</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <script src="src/add/jquery-3.6.0-dist/jquery-3.6.0.min.js"></script>
+    <script src="src/add/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+
+    <script>
+        function abrirModal() {
+            $('#myModal').modal('show')
+        }
+    </script>
+</body>
+</html>
